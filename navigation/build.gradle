@@ -1,0 +1,7 @@
+apply from: "$rootProject.projectDir/android_base.gradle"
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
+dependencies {
+    implementation AndroidLibraries.navigationFrag
+    implementation AndroidLibraries.navigation
+}

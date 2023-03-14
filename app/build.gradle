@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'com.google.dagger.hilt.android'
+    id("androidx.navigation.safeargs.kotlin")
+}
+
+android {
+    compileSdk ConfigVersion.compileSdkVersion
+
+    defaultConfig {
+        applicationId ConfigVersion.applicationId
+        minSdk ConfigVersion.minSdkVersion
+        targetSdk ConfigVersion.targetSdkVersion
+        versionCode ConfigVersion.versionCode
+        versionName ConfigVersion.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation AndroidLibraries.coreKtx
+    implementation AndroidLibraries.appCompat
+    implementation AndroidLibraries.constraintLayout
+    implementation AndroidLibraries.lifecycleLivedata
+    implementation AndroidLibraries.lifecycleViewModel
+    implementation AndroidLibraries.navigationFrag
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.recyclerView
+    testImplementation TestLibraries.junitTest
+    androidTestImplementation TestLibraries.junit
+    androidTestImplementation TestLibraries.espresso
+
+    //size unit scales with the screen size
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    implementation Libraries.material
+
+    //Network
+    implementation Libraries.retrofit
+    implementation Libraries.retrofitGsonConverter
+    implementation Libraries.httpLoggingInterceptor
+    implementation Libraries.gson
+
+    //image
+    implementation Libraries.glide
+    kapt Libraries.glideCompiler
+
+    //coroutine
+    implementation KotlinLibraries.kotlinCoroutineCore
+    implementation AndroidLibraries.kotlinCoroutineAndroid
+    implementation 'androidx.fragment:fragment-ktx:1.4.1'
+
+    //save key-value
+    implementation "com.orhanobut:hawk:2.0.1"
+
+    //dependency injection
+    implementation Libraries.hilt
+    kapt Libraries.hiltCompiler
+
+    //room
+    implementation Libraries.roomKtx
+    implementation Libraries.roomRunTime
+    kapt Libraries.roomCompiler
+
+    implementation project(':common')
+    implementation project(':navigation')
+}

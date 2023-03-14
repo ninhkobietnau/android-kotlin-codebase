@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/project/ninhnau/AIArt/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/drawable/bg_corner10.xml" value="0.197" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.197" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.197" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.197" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/drawable/nav_background.xml" value="0.197" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/fragment_history.xml" value="0.33697916666666666" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/fragment_preview.xml" value="0.2890123984608807" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/item_model_layout.xml" value="0.28815733219324496" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/layout/item_slider_view_image.xml" value="0.2890123984608807" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/ai_art/app/src/main/res/menu/bottom_nav_menu.xml" value="0.35208333333333336" />
+        <entry key="..\:/AndroidStudio/project/ninhnau/android-kotlin-codebase/app/src/main/res/layout/fragment_home.xml" value="0.148636763412489" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

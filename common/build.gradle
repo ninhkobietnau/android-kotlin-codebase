@@ -1,0 +1,13 @@
+apply from: "$rootProject.projectDir/android_base.gradle"
+
+dependencies {
+    implementation AndroidLibraries.coreKtx
+    implementation AndroidLibraries.lifecycleLivedata
+    implementation AndroidLibraries.lifecycleViewModel
+
+    implementation Libraries.retrofit
+    implementation Libraries.retrofitGsonConverter
+    implementation Libraries.httpLoggingInterceptor
+    implementation Libraries.gson
+
+}

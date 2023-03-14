@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Code Base</string>
+    <string name="title_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate">Generate</string>
+    <string name="avatar">Avatar</string>
+    <string name="history">History</string>
+    <string name="let_s_find_your_ai_art">Let’s find your AI Art</string>
+    <string name="anime_girls">Anime Girls</string>
+    <string name="real_girls">Real Girls</string>
+    <string name="ai_work_dark">AI Work: Dark</string>
+    <string name="ai_art_fantasy">AI Art: Fantasy</string>
+    <string name="ai_girl">AI Girl</string>
+    <string name="preview">Preview</string>
+    <string name="prompt">Prompt</string>
+    <string name="try_this_prompt">Try this prompt</string>
+</resources>
